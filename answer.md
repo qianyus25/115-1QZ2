@@ -1,12 +1,12 @@
 # 第2次練習題目-隨堂-QZ2
 >
->學號：1234567 (換成自己的)
+>學號：113111114 
 ><br />
->姓名：王小明 (換成自己的)
+>姓名：黃品綾 
 ><br />
->作業撰寫時間：180 (mins，包含程式撰寫時間，換成自己的)
+>作業撰寫時間：80 
 ><br />
->最後撰寫文件日期：2023/09/22 (換成自己的)
+>最後撰寫文件日期：2023/10/28 
 >
 
 本份文件包含以下主題：(至少需下面兩項，若是有多者可以自行新增)
@@ -55,10 +55,26 @@ public void mt_getResult(){
 
 1. (需截圖說明，並且需截圖執行結果)
 
-Ans:
+![w](img/w.png)
+
+Ans:using UnityEngine.InputSystem;用來偵測玩家按鍵件
+Keyboard keyboard = Keyboard.current;取得目前的鍵盤狀態
+if (keyboard.wKey.isPressed)偵測 W 鍵是否按下
+Debug.Log("玩家按了 W 鍵！");	在 Console 印出指定的文字
 
 2. (需截圖說明，並且需截圖執行結果)
 
-Ans:
+![A](img/A.png)
+
+![S](img/S.png)
+
+![D](img/D.png)
+
+
+Ans:程式都一樣
+只需將if (keyboard.wKey.isPressed)偵測 W 鍵是否按下
+Debug.Log("玩家按了 W 鍵！");	在 Console 印出指定的文字
+這兩段的程式(w)key改成(A)key  (S)key (D)key 印出的文字也更改就能顯示按了哪個鍵
 
 ## 其他
+心得:實際上花了多久時間完成有點忘了，但第一次看的時候發現要想很久才能稍微看懂，要等實際操作後才知道卡在哪裡。
